@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    #navbarNavDropdown{
+      margin: 5px;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+  }
+  .sticky{
+      position: sticky;
+      top: 0px;
+      z-index: 2;
+  }
+  #imgkk{
+      height: 70px;
+      width: 70px;
+      padding: 10px;
+    }
+    .background{
+        background-image: url(waterfalls.jpg);
+        height: 700px;
+        width: 1550px;
+        border: 2px solid black;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #hill{
+        text-align: center;
+        color:whitesmoke;
+        text-shadow: 20px 20px 20px 20px;
+        font-style: italic;
+        font-size: 150px;
+    }
+    #heading{
+        margin: 50px;
+        padding: 50px;
+    }
+    .card{
+        margin: 50px;
+        padding: 50px;
+    }
+    .card-img-top{
+  transition: transform 1s;
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+}
+.button{
+    color: black;
+    background-color:rgb(11, 128, 174);
+}
+#back{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<body>
+  <div class="sticky">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="tn.webp" id="imgkk">
+          <a class="navbar-brand" href="#">TN<br>TOURISM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <div class="block">
+                <a class="nav-link active" aria-current="page" href="assignment.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destination
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="hill.html">Hill</a></li>
+                  <li><a class="dropdown-item" href="beach.html">Beach</a></li>
+                  <li><a class="dropdown-item" href="wildlife.html">Wildlife</a></li>
+                  <li><a class="dropdown-item" href="waterfall.html">Waterfall</a></li>
+                  <li><a class="dropdown-item" href="museum.html">Museums</a></li>
+                  <li><a class="dropdown-item" href="fort.html">Fort</a></li>
+                  <li><a class="dropdown-item" href="lake.html">Lakes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Experience
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="adventure.html">Adventure</a></li>
+                  <li><a class="dropdown-item" href="shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item" href="eat.html">Eat&Drink</a></li>
+                  <li><a class="dropdown-item" href="festival.html">Festivals&Events</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Virtual tour</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Images
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="photos.html">photos</a></li>
+                  <li><a class="dropdown-item" href="videos.html">videos</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tourism Policy</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Tourism Awards</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- background image -->
+    <div class="background">
+       <h1 id="hill">WATERFALLS</h1>
+    </div><hr>
+    <div class="container-fluid" id="heading">
+        <h1>TamilNadu Waterfall</h1>
+        <p class="col-sm-4">A waterfall is any point in a river or stream where water flows over a vertical drop or a series of steep drops. Waterfalls also occur where meltwater drops over the edge of a tabular iceberg or ice shelf.</p>
+    </div>
+</div>
+<!-- cards -->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="Thriparappu.jpg" class="card-img-top" alt="Thriparappu">
+        <div class="card-body">
+          <h5 class="card-title">Thriparappu</h5>
+          <p class="card-text">
+            At a distance of 13 km from Pechiparai Dam, 50 km from Kanyakumari, & 51 km from Trivandrum, Thirparappu Falls is an artificial waterfall situated at Thirparappu near Kanyakumari. It is one of the Kanyakumari tourist places.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="SiruvaniFalls.jpg" class="card-img-top" alt="SiruvaniFalls">
+        <div class="card-body">
+          <h5 class="card-title">SiruvaniFalls</h5>
+          <p class="card-text">
+            At a distance of 36 km from Coimbatore, and 50 km from Palakkad, Siruvani Waterfall is a scenic waterfall situated in the Siruvani Hills of Tamil Nadu. It is one of the popular waterfalls in Tamilnadu, and among the must-visit places during your Coimbatore trip.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Courtallam.jpg" class="card-img-top" alt="Courtallam">
+        <div class="card-body">
+          <h5 class="card-title">Courtallam</h5>
+          <p class="card-text">At a distance of 7 km from Tenkasi, 62 km from Tirunelveli & 160 km from Madurai, Courtallam, or Kutralam Falls is a stunning waterfall situated near Tirunelveli. It is one of the prominent waterfalls in Tamilnadu, and among the must include places in Tenkasi holiday packages. Courtallam is famed as the 'Spa of South'.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="kalhatti.jpg" class="card-img-top" alt="kalhatti">
+        <div class="card-body">
+          <h5 class="card-title">kalhatti</h5>
+          <p class="card-text">At a distance of 14 km from Ooty, Kalhatty Falls is an attractive waterfall situated on the Ooty - Mysore Road or Sigur Ghat Road. Also known as the Kalahasti Falls, it is one of the top places to visit in Ooty and also one of the best waterfalls in Ooty.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- button -->
+  <div class="end">
+  <button class="button">
+    <a href="assignment.html" id="back">Back</a>
+</button>
+</div>
+</body>
+</html>

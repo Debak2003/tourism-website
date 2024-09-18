@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    #navbarNavDropdown{
+      margin: 5px;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+  }
+  .sticky{
+      position: sticky;
+      top: 0px;
+      z-index: 2;
+  }
+  #imgkk{
+      height: 70px;
+      width: 70px;
+      padding: 10px;
+    }
+    .background{
+        background-image: url(Adyarlake.jpg);
+        height: 700px;
+        width: 1550px;
+        border: 2px solid black;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #hill{
+        text-align: center;
+        color:whitesmoke;
+        text-shadow: 20px 20px 20px 20px;
+        font-style: italic;
+        font-size: 150px;
+    }
+    #heading{
+        margin: 50px;
+        padding: 50px;
+    }
+    .card{
+        margin: 50px;
+        padding: 50px;
+    }
+    .card-img-top{
+  transition: transform 1s;
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+}
+.button{
+    color: black;
+    background-color:rgb(11, 128, 174);
+}
+#back{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<body>
+  <div class="sticky">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="tn.webp" id="imgkk">
+          <a class="navbar-brand" href="#">TN<br>TOURISM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <div class="block">
+                <a class="nav-link active" aria-current="page" href="assignment.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destination
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="hill.html">Hill</a></li>
+                  <li><a class="dropdown-item" href="beach.html">Beach</a></li>
+                  <li><a class="dropdown-item" href="wildlife.html">Wildlife</a></li>
+                  <li><a class="dropdown-item" href="waterfall.html">Waterfall</a></li>
+                  <li><a class="dropdown-item" href="museum.html">Museums</a></li>
+                  <li><a class="dropdown-item" href="fort.html">Fort</a></li>
+                  <li><a class="dropdown-item" href="lake.html">Lakes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Experience
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="adventure.html">Adventure</a></li>
+                  <li><a class="dropdown-item" href="shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item" href="eat.html">Eat&Drink</a></li>
+                  <li><a class="dropdown-item" href="festival.html">Festivals&Events</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Virtual tour</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Images
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="photos.html">photos</a></li>
+                  <li><a class="dropdown-item" href="videos.html">videos</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tourism Policy</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Tourism Awards</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- background image -->
+    <div class="background">
+       <h1 id="hill">Lakes</h1>
+    </div><hr>
+    <div class="container-fluid" id="heading">
+        <h1>TamilNadu Lakes</h1>
+        <p class="col-sm-4">Out of the below rivers, Kaveri, Thenpennai, Palar, are the three largest rivers of Tamil Nadu followed by Vaigai River, Noyyal River, Cheyyar River, Then Pennai, Vellar River (Northern Tamil Nadu), Vellar River (Southern Tamil Nadu), Moyar River, Pampar River, Bhavani River, Thamirabarani River, Vaippar River are the major rivers in Tamil Nadu. (Listed in the order of longest rivers first). Sarabanga nadhi ( Idappadi) Nallaru ( Aninasi ) Kausika nadhi ( Periyanaickan palayam)</p>
+    </div>
+</div>
+<!-- cards -->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="Adyarlake.jpg" class="card-img-top" alt="Adyarlake">
+        <div class="card-body">
+          <h5 class="card-title">Adyar Lake</h5>
+          <p class="card-text">The Adyar River, which originates near the Chembarambakkam Lake in the Kanchipuram district, is one of the three rivers that winds through Chennai, Tamil Nadu, India, and joins the Bay of Bengal at the Adyar estuary. The 42.5-kilometre (26.4 mi) long river contributes to the estuarine ecosystem of Chennai. Despite the high pollution levels, boating and fishing take place in this river. The river collects surplus water from about 200 tanks and lakes, small streams and the rainwater drains in the city, with a combined catchment area of 860 square kilometres (331 sq mi). Most of the waste from the city is drained into this river and the Cooum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="lake.jpg" class="card-img-top" alt="lake">
+        <div class="card-body">
+          <h5 class="card-title">Lake</h5>
+          <p class="card-text">The river has varying depth of approximately 0.75 metres (2.5 ft) in its upper reaches and 0.5 metres (1.6 ft) in its lower reaches. The catchment area of the river is 530 square kilometres (200 sq mi). Bed width ranges from 10.5 to 200 metres (34 to 656 ft). It flows for 24 kilometres (15 mi) in the Chennai Metropolitan Area including about 15 kilometres (9 mi) within the Chennai district before draining into the sea.[5] It discharges about 190 to 940 million cubic metres (150,000 to 760,000 acre⋅ft) water annually to the Bay of Bengal. The discharge is seasonal with about 7 to 33 times more than the annual average during the Northeast monsoon season between September and December. The river is also supplied by surplus water from about 40 ponds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Kaveri.jpg" class="card-img-top" alt="Kaveri">
+        <div class="card-body">
+          <h5 class="card-title">Kaveri</h5>
+          <p class="card-text">The Kaveri (also known as Cauvery, the anglicised name) is one of the major Indian rivers flowing through the states of Karnataka and Tamil Nadu. The Kaveri River rises at Talakaveri in the Brahmagiri range in the Western Ghats, Kodagu district of the state of Karnataka, at an elevation of 1,341 m above mean sea level and flows for about 800 km before its outfall into the Bay of Bengal. It reaches the sea in Poompuhar, in Mayiladuthurai district. It is the third largest river – after Godavari and Krishna – in southern India, and the largest in the state of Tamil Nadu, which, on its course, bisects the state into north and south. In ancient Tamil literature, the river was also called Ponni</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Vaigai.jpg" class="card-img-top" alt="Vaigai">
+        <div class="card-body">
+          <h5 class="card-title">Vaigai</h5>
+          <p class="card-text">The Vaigai is a river in the Tamil Nadu state of southern India; it passes through the towns of Theni, Madurai and Ramanathapuram.[2] It originates in Varusanadu Hills, the Periyar Plateau of the Western Ghats range, and flows northeast through the Kambam Valley, which lies between the Palani Hills to the north and the Varushanad Hills to the south. The Vattaparai Falls are located on this river. As it rounds the eastern corner of the Varushanad Hills, the river turns southeast, running through the region of Pandya Nadu. Madurai, the largest city in the Pandya Nadu region and its ancient capital, lies on the Vaigai. The river empties into the Palk Bay near Alagankulam, close to Pamban Bridge in Ramanathapuram District.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- button -->
+  <div class="end">
+  <button class="button">
+    <a href="assignment.html" id="back">Back</a>
+</button>
+</div>
+</body>
+</html>

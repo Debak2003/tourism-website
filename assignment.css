@@ -1,0 +1,131 @@
+#heading{
+    padding-bottom: 35%;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#van{
+  font-size: 200px;
+}
+#wel{
+  font-size: 50px;
+}
+#navbarNavDropdown{
+  margin: 5px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+#imgkk{
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+}
+.sticky{
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+/* #vanakkam{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 200px;
+}
+#welcome{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+} */
+.navbar-brand{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+text-align: center;
+background-color: gainsboro;
+height: 200px;
+border: 2px solid grey;
+}
+#tn{
+font-style: oblique;
+font-weight: bold;
+
+}
+.paragraph{
+margin: 50px;
+} 
+#place{
+font-weight: bold;
+}
+.row{
+margin: 50px;
+
+}
+.card-img-top{
+width: 250px;
+height:250px;
+position: relative;
+border-radius: 15px;
+transition: transform 1s;
+}
+.card-img-top:hover{
+transform: scale(1.1);
+}
+.btn{
+width: 200px;
+margin: 15px;
+}
+input{
+padding: 5px;
+margin: 10px;
+}
+.icon{
+margin: 10px;
+padding: 10px;
+}
+#you{
+color: red;
+margin: 20px;
+}
+#insta{
+color: #C13584;
+margin: 20px;
+}
+#whats{
+color: #25D366;
+margin: 20px;
+}
+#face{
+color: #0165E1;
+margin: 20px;
+}
+#foot {
+  background-color: rgb(242, 242, 242);
+  height: 350px;
+}
+#det{
+font-size: 30px;
+font-weight: bolder;
+}
+/* #mail{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+} */
+.card-body{
+margin: 10px;
+padding: 10px;
+}
+#add {
+  position: relative;
+  top: -193px;
+  left: 380px;
+}
+#soci {
+  position: relative;
+  top: -350px;
+  left: 800px;
+}

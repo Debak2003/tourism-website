@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    #navbarNavDropdown{
+      margin: 5px;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+  }
+  .sticky{
+      position: sticky;
+      top: 0px;
+      z-index: 2;
+  }
+  #imgkk{
+      height: 70px;
+      width: 70px;
+      padding: 10px;
+    }
+    .background{
+        background-image: url(fortmuseum.jpg);
+        height: 700px;
+        width: 1550px;
+        border: 2px solid black;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #hill{
+        text-align: center;
+        color:whitesmoke;
+        text-shadow: 20px 20px 20px 20px;
+        font-style: italic;
+        font-size: 150px;
+    }
+    #heading{
+        margin: 50px;
+        padding: 50px;
+    }
+    .card{
+        margin: 50px;
+        padding: 50px;
+    }
+    .card-img-top{
+  transition: transform 1s;
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+}
+.button{
+    color: black;
+    background-color:rgb(11, 128, 174);
+}
+#back{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<body>
+  <div class="sticky">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="tn.webp" id="imgkk">
+          <a class="navbar-brand" href="#">TN<br>TOURISM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <div class="block">
+                <a class="nav-link active" aria-current="page" href="assignment.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destination
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="hill.html">Hill</a></li>
+                  <li><a class="dropdown-item" href="beach.html">Beach</a></li>
+                  <li><a class="dropdown-item" href="wildlife.html">Wildlife</a></li>
+                  <li><a class="dropdown-item" href="waterfall.html">Waterfall</a></li>
+                  <li><a class="dropdown-item" href="museum.html">Museums</a></li>
+                  <li><a class="dropdown-item" href="fort.html">Fort</a></li>
+                  <li><a class="dropdown-item" href="lake.html">Lakes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Experience
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="adventure.html">Adventure</a></li>
+                  <li><a class="dropdown-item" href="shopping.html">Shopping</a></li>
+                  <li><a class="dropdown-item" href="eat.html">Eat&Drink</a></li>
+                  <li><a class="dropdown-item" href="festival.html">Festivals&Events</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Virtual tour</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Images
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="photos.html">photos</a></li>
+                  <li><a class="dropdown-item" href="videos.html">videos</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tourism Policy</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Tourism Awards</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- background image -->
+    <div class="background">
+       <h1 id="hill">FORT</h1>
+    </div><hr>
+    <div class="container-fluid" id="heading">
+        <h1>TamilNadu fort</h1>
+        <p class="col-sm-4"> An ancient or medieval settlement or farmstead fortified with a circular bank, ditch, or stone wall, situated usually on a hill or promontory in northern Europe, and especially in Ireland.
+        </p>
+    </div>
+</div>
+<!-- cards -->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="Padmanabhapuram.jpg" class="card-img-top" alt="Padmanabhapuram">
+        <div class="card-body">
+          <h5 class="card-title">Padmanabhapuram palace</h5>
+          <p class="card-text">Padmanabhapuram Palace, also known as Kalkulam Palace, is a Travancore-era palace located in Padmanabhapuram in the Kanyakumari district of the Indian state of Tamil Nadu. The palace is owned, controlled and maintained by the government of the neighbouring state of Kerala. Padmanabhapuram is the former capital city of the erstwhile Hindu kingdom of Travancore. It is around 20 km (12 mi) from Nagercoil, 39 km (24 mi) from Kanyakumari town and 52 km (32 mi) from Thiruvananthapuram in Kerala.[1] The palace complex lies inside an old granite fortress around four kilometers long. The palace is located at the foot of the Veli Hills, part of the Western Ghats. The river Valli flows nearby.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="FortStGeorge.jpg" class="card-img-top" alt="FortStGeorge">
+        <div class="card-body">
+          <h5 class="card-title">Fort St.George</h5>
+          <p class="card-text">Fort St. George (or historically, White Town)[1] is a fortress at the coastal city of Chennai, India. Founded in 1639, it was the first English (later British) fortress in India.[2] The construction of the fort provided the impetus for further settlements and trading activity, in what was originally an uninhabited land.[3] Thus, it is a feasible contention to say that the city (formerly named Madras) evolved around the fortress.[4] The fort currently houses the Tamil Nadu legislative assembly and other official buildings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="VelloreFort.jpg" class="card-img-top" alt="VelloreFort">
+        <div class="card-body">
+          <h5 class="card-title">vellore fort</h5>
+          <p class="card-text">Vellore is situated at a distance of about 145 kilometers to the west from Chennai, the state capital. Chinna Bommi Nayak is constructed during the period of Vijayanagara Kingdom that was in supremacy to the south of India. In that particular period, the possession of the fort was detained and distributed from one ruler to another as time passed.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="KattabommanFort.jpg" class="card-img-top" alt="KattabommanFort">
+        <div class="card-body">
+          <h5 class="card-title">Kattabomman Fort</h5>
+          <p class="card-text">The Kattabomman fort is one of the most famous historical attractions among the forts in Tamil Nadu. People are allowed to visit this fort from 8.00 am-1.00 pm and 2.00pm-6.00pm. This fort is situated near Thiruchendur at Salikulam. Kattabomman fort or it is widely called as Panchalankurichi fort in Tamil Nadu was built by Kattabomman and it is one of the best tourist spot for the people who travel from Madurai to Tirunelveli.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- button -->
+  <div class="end">
+  <button class="button">
+    <a href="assignment.html" id="back">Back</a>
+</button>
+</div>
+</body>
+</html>
